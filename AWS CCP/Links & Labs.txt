@@ -1,0 +1,30 @@
+Support plans
+https://aws.amazon.com/premiumsupport/plans/?cp=sec&sec=prep
+
+StudyNotes
+https://github.com/kananinirav/AWS-Certified-Cloud-Practitioner-Notes/blob/master/sections/iam.md
+
+hand on tutorials
+https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute&awsf.getting-started-content-type=content-type%23hands-on&getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc
+
+Regions and Availability Zones
+https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+
+Developer tools
+https://aws.amazon.com/developer/tools/
+
+networking
+https://aws.amazon.com/products/networking/
+
+security group
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html
+https://aws.amazon.com/products/security/
+
+storage an db
+https://aws.amazon.com/s3/storage-classes/
+https://aws.amazon.com/products/storage/
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html
+
+Migration
+https://aws.amazon.com/dms/
