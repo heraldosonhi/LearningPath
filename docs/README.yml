@@ -1,0 +1,415 @@
+   #GET
+
+   #Serve para visualizar algumas entidades que compõem a modelagem da aplicação, 
+   #alguns poderão servir para popular dropdowns de formulários diversos ou listagens de tabelas mais complexas
+
+   1=> Visualizar Cidades
+     Listar todas
+        <Enter URL here>/api/giant/city
+     Listar por ID
+        <Enter URL here>/api/giant/city/1
+
+        RETORNA:
+        {"ID":3,"GRL_PAIS_ID":1,"SIGLA":"Ben","NOME":"Bengo","INSERIDO_POR":1,"ACTUALIZADO_POR":null,"REMOVIDO_POR":null,"DATA_INSERCAO":"2023-07-08 13:52:13","DATA_ACTUALIZACAO":null,"DATA_remoção":null}
+
+   2=> Visualizar Estado Civil
+     Listar todos
+        <Enter URL here>/api/giant/cstatus
+     Listar por ID
+        <Enter URL here>/api/giant/cstatus/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 1,
+            "SIGLA": "S",
+            "NOME": "Solteiro(A)",
+            "INSERIDO_POR": 1,
+            "ACTUALIZADO_POR": null,
+            "REMOVIDO_POR": null,
+            "DATA_INSERCAO": "2023-07-08 12:40:29",
+            "DATA_ACTUALIZACAO": null,
+            "DATA_remoção": null
+        }
+    ]
+}
+ 
+  3=> Visualizar Profissões
+     Listar todos
+        <Enter URL here>/api/giant/job
+     Listar por ID
+        <Enter URL here>/api/giant/job/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 11021,
+            "NOME": "Administrativo de obras",
+            "INSERIDO_POR": 1,
+            "ACTUALIZADO_POR": null,
+            "REMOVIDO_POR": null,
+            "DATA_INSERCAO": "2023-07-08 13:07:12",
+            "DATA_ACTUALIZACAO": null,
+            "DATA_remoção": null
+        }
+    ]
+}
+
+  4=> Visualizar Veículos
+     Listar todos
+        <Enter URL here>/api/giant/vehicles
+     Listar por ID
+        <Enter URL here>/api/giant/vehicles/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 1,
+            "MARCA": "Toyota",
+            "MODELO": "Fortuner",
+            "CILINDRAGEM": 2400,
+            "MATRICULA": "LD-45-56-GI",
+            "PESO_BRUTO": 4500,
+            "ANO_ACQUISICAO": 2022,
+            "N_LOTACAO": 7,
+            "CATEGORIA": "LP2 - LIGEIROS PARTICULARES ABAIXO DE 2400CC"
+        }
+    ]
+}
+
+  
+  5=> Visualizar Tipo de Apólices
+     Listar todos
+        <Enter URL here>/api/giant/apolicetipos
+     Listar por ID
+        <Enter URL here>/api/giant/apolicetipos/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 1,
+            "SIGLA": "AUTO",
+            "NOME": "Seguro Automóvel",
+            "INSERIDO_POR": 1,
+            "ACTUALIZADO_POR": null,
+            "REMOVIDO_POR": null,
+            "DATA_INSERCAO": "2023-07-08 13:48:34",
+            "DATA_ACTUALIZACAO": null,
+            "DATA_remoção": null
+        }
+    ]
+}
+
+
+  6=> Visualizar Tipologias de Tipo de Apólices
+     Listar todos
+        <Enter URL here>/api/giant/apolicevalores
+     Listar por ID
+        <Enter URL here>/api/giant/apolicevalores/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 1,
+            "TIPO_DE_APOLICE": "Seguro Automóvel",
+            "TIPOLOGIA": "Trimestral",
+            "VALOR": "9800.99",
+            "CODIGO_MOEDA": "AOA",
+            "MOEDA": "Kwanza"
+        }
+    ]
+}
+  
+   7=> Visualizar Clientes
+     Listar todos
+        <Enter URL here>/api/giant/clients
+     Listar por ID
+        <Enter URL here>/api/giant/clients/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 29,
+            "NOME": "Jose Pedro de Almeida",
+            "DATA_NASCIMENTO": "1992-02-01",
+            "SEXO": "M",
+            "ESTADO_CIVIL": "Solteiro(A)",
+            "NIB": "565656",
+            "NIF": "000468LA045",
+            "NOME_PAI": "Marcos Vasconselho",
+            "NOME_MAE": "Margarida Senatra",
+            "IDENTIFICACAO": "Bilhete de Identidade",
+            "IDENTIFICACAO_NUMERO": "000468LA045",
+            "IDENTIFICACAO_DATA_EMISSAO": "2022-02-02",
+            "IDENTIFICACAO_DATA_VALIDADE": "2027-02-03",
+            "TELEFONE": "933636363",
+            "TELEFONE_ALTERNATIVO": "922585858",
+            "EMAIL": "jose.almeida@gmail.com",
+            "CAIXA_POSTAL": null,
+            "ENDERECO_CIDADE": "Benguela",
+            "ENDERECO_NUMERO": null,
+            "ENDERECO_RUA": "Rua dos Generais Casa S/N",
+            "ENDERECO_MORADA": "Kilamba Kiaxi Bairro 4 de Abril",
+            "NATURALIDADE": "Bengo",
+            "PROFISSAO": "Acrilista",
+            "RENUMERACAO": "285000",
+            "IDENTIFICACAO_AUTOMOVEL": "Carta de Condução ",
+            "IDENTIFICACAO_AUTOMOVEL_NUMERO": "LD-43476",
+            "IDENTIFICACAO_AUTOMOVEL_DATA_EMISSAO": "2022-02-04",
+            "IDENTIFICACAO_AUTOMOVEL_DATA_VALIDADE": "2027-02-05"
+        }
+    ]
+}
+
+    
+    8=> Visualizar Apólices
+     Listar todos
+        <Enter URL here>/api/giant/apolices
+     Listar por ID
+        <Enter URL here>/api/giant/apolices/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 2,
+            "TIPO": "Seguro Automóvel",
+            "NUMERO": "APAUTO-01",
+            "DATA_INICIO": "2022-02-02",
+            "DATA_FIM": "2027-02-03",
+            "ESTADO": "Normal",
+            "VEICULO_MARCA": "Toyota",
+            "VEICULO_MODELO": "Fortuner",
+            "VEICULO_CILINDRAGEM": 2400,
+            "VEICULO_MATRICULA": "LD-45-56-GI",
+            "CLIENTE": "Jose Pedro de Almeida",
+            "CLIENTE_IDENTIFICACAO": "Bilhete de Identidade",
+            "CLIENTE_IDENTIFICACAO_NUMERO": "000468LA045",
+            "TIPOLOGIA": "Anual",
+            "DESCONTOS": "10.00",
+            "VALOR_PAGO": "285000.00"
+        }
+    ]
+}
+
+
+    9=> Visualizar Sinistros
+     Listar todos
+        <Enter URL here>/api/giant/sinistros
+     Listar por ID
+        <Enter URL here>/api/giant/sinistros/1
+
+        RETORNA:
+      {
+    "status": 200,
+    "": [
+        {
+            "ID": 2,
+            "DATA": "2022-02-02 00:00:00",
+            "DANOS_MATERIAIS_VEICULOS": "Não",
+            "DANOS_MATERIAIS_OBJECTOS": "Sim",
+            "FERIMENTOS": "Sim",
+            "DESCRICAO": "Duas pessoas ficaram feridas em um acidente de helicóptero na Serra do Cipó, no município de Santana do Riacho, na Região Central de Minas Gerais, na tarde deste sábado.",
+            "RUA": "7 Casas",
+            "MORADA": "Bairro 11 de Maio rua da mama gorda",
+            "CIDADE": "Cabinda",
+            "SEGURADO_NOME": "Jose Pedro de Almeida",
+            "SEGURADO_IDENTIFICACAO": "Bilhete de Identidade",
+            "SEGURADO_IDENTIFICACAO_NUMERO": "000468LA045",
+            "SEGURADO_APOLICE_NUMERO": "APAUTO-01",
+            "SEGURADO_APOLICE_TIPO": "Seguro Automóvel",
+            "SEGURADO_VEICULO_MARCA": "Toyota",
+            "SEGURADO_VEICULO_MODELO": "Fortuner",
+            "SEGURADO_OBSERVACOES": "",
+            "TOMADOR_NOME": "Jose Souza Domingos",
+            "TOMADOR_IDENTIFICACAO": "Bilhete de Identidade",
+            "TOMADOR_IDENTIFICACAO_NUMERO": "00TR0BA00323",
+            "TOMADOR_VEICULO_MARCA": "Toyota",
+            "TOMADOR_VEICULO_MODELO": "Fortuner",
+            "TOMADOR_OBSERVACOES": ""
+        }
+    ]
+}
+
+
+    10=> Visualizar Arquivos de Sinistros
+     Listar todos
+        <Enter URL here>/api/giant/arquivos
+     Listar por ID
+        <Enter URL here>/api/giant/arquivos/1
+
+        RETORNA:
+        {
+    "status": 200,
+    "": [
+        {
+            "ID": 8,
+            "SINISTROS_ID": 6,
+            "ARQUIVO": "upload/sinistros/Jul_2023/1688917483.png",
+            "ARQUIVO_TAMANHO": 91508,
+            "ARQUIVO_TIPO": "image/png",
+            "INSERIDO_POR": 1,
+            "ACTUALIZADOR_POR": null,
+            "REMOVIDO_POR": null,
+            "DATA_INSERCAO": "2023-07-09 16:44:43",
+            "DATA_ACTUALIZACAO": null,
+            "DATA_remoção": null
+        }
+    ]
+}
+
+
+
+
+   #POST
+
+   #Serve para a inserção de dados 
+
+        BASE: <Enter URL here>/api/giant/
+        FORMATO: JSON
+        RETORNO: CODIGO SUCCESSO (200) OU MENSAGEM ALTERNATIVA COM DESCRIÇÃO DO ERRO, INSERÇÃO DE SINISTROS RETORNA O VALOR ID DO REGISTO INSERIDO
+        NOTA: atributos integer 0 = null
+
+    1=> Criação de Clientes e/ou Tomadores de Seguro
+      
+{
+    "clients": {
+        "nome": "Jose Pedro de Almeida",
+        "data_nascimento": "1992-02-01",
+        "sexo": "M", -- SEXO (M,F)
+        "estado_civil": 1,  #Valor ID do Estado Civil
+        "nib": "565656",  #Permite valores <NULL> MAS é obrigatório a sua participação na composição do Request
+        "nif": "000468LA045",
+         "filiacao_pai": "Marcos Vasconselho",
+          "filiacao_mae": "Margarida Senatra",
+        "naturalidade" : 3, #Valor ID da Cidade de Naturalidade 
+        "profissao": 11007, #Valor ID da Profissão
+        "renumeracao": 285000.00,
+        "documentacao": {
+            "pessoal": {
+                "tipo": 1, #Valor ID do Tipo de Documentação PESSOAL (1=> BI, 2=> PASSAPORTE) 
+                "numero": "000468LA045",
+                "data_emissao":  "2022-02-02",
+                "data_validade":  "2027-02-03"
+            },
+            "automovel": {
+                "numero": "LD-434766", -- UNIQUE
+                "data_emissao":  "2022-02-04",
+                "data_validade":  "2027-02-05"
+            }
+        },
+        "contactos": {
+            "telefone": 933636363,
+            "telefone_alternativo": 922585858,
+            "email": "jose.almeida@gmail.com",
+            "caixa_postal": "" #Permite valores <NULL> MAS é obrigatório a sua participação na composição do Request
+        },
+        "endereco": {
+            "cidade": 4, #Valor ID de uma Cidade existente
+            "morada": "Kilamba Kiaxi Bairro 4 de Abril",
+            "rua": "Rua dos Generais Casa S/N"
+        }
+    }
+}
+                    
+
+
+  2=> Inserção de Apólices
+  
+{
+    "apolices": {
+        "tipo":1,
+        "numero": "APAUTO-01", #Valor de Campo <UNIQUE>
+        "data_inicio":  "2022-02-02",
+        "data_fim": "2027-02-03",
+        "cliente": 29,
+        "veiculo": 1,
+        "tipologia": 3,
+        "desconto": 10,
+        "valor": 285000
+    }
+}
+
+
+
+  3=> Inserção de Sinistros
+
+{
+    "sinistros": {
+        "data": "2022-02-02",
+        "danos_materiais_veiculos": 1, -- (1=>Sim, 2=>Nao)
+        "danos_materiais_objectos":2, -- (1=>Sim, 2=>Nao)
+        "ferimentos": 1, -- (1=>Sim, 2=>Nao)
+        "descricao": "Duas pessoas ficaram feridas em um acidente de helicóptero na Serra do Cipó, no município de Santana do Riacho, na Região Central de Minas Gerais, na tarde deste sábado.",
+        "rua": "Joaquina Cassange",
+        "morada": "Kilamba Kiaxy Bairro Sonefe",
+        "cidade": 6,
+        "apolice":3,
+        "observacoes_segurado": "",
+        "tomador": 24,
+        "tomador_veiculo": 1,
+        "observacoes_tomador":""
+    }
+}
+ 
+  4=> Inserção de Arquivos de Sinistros
+ 
+        FORMATO: HTTP FORM-DATA
+        RETORNO: CODIGO SUCCESSO (200) OU MENSAGEM ALTERNATIVA COM DESCRIÇÃO DO ERRO
+        NOTA: IMAGENS COM FORMATO (.PNG,.JPG,.JPEG) E TAMANHO INFERIOR <= 2.0 MB
+
+   {
+    "form-data": {
+        "photo[]": , #Arrays de ficheiros de formatos de imagens
+        "sinistro": 1, #ID do Sinistro pertencente as Imagens por Registar 
+    }
+}
+
+   #DELETE
+
+   #Serve para a remoção de dados
+
+        BASE: <Enter URL here>/api/giant/
+        FORMATO: JSON
+        RETORNO: CODIGO SUCCESSO (200) OU MENSAGEM ALTERNATIVA COM A DESCRIÇÃO DO ERRO
+
+    1=> remoção de Clientes
+
+{
+    "delete": {
+        "ENTIDADE": "clients",
+        "ID": 1 #ID da entidade a remover
+    }
+}        
+
+
+   2=> remoção de Apolices
+
+{
+    "delete": {
+        "ENTIDADE": "apolices",
+        "ID": 1 #ID da entidade a remover
+    }
+}        
+
+   3=> remoção de Sinistros
+   
+{
+    "delete": {
+        "ENTIDADE": "sinistros",
+        "ID": 1 #ID da entidade a remover
+    }
+}        
