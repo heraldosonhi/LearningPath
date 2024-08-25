@@ -1,7 +1,5 @@
-   #GET
-
-   #Serve para visualizar algumas entidades que compõem a modelagem da aplicação, 
-   #alguns poderão servir para popular dropdowns de formulários diversos ou listagens de tabelas mais complexas
+  #GET
+  #Serve para visualizar algumas entidades que compõem a modelagem da aplicação, alguns poderão servir para popular dropdowns de formulários diversos ou listagens de tabelas mais complexas
 
    1=> Visualizar Cidades
      Listar todas
@@ -274,9 +272,8 @@
 
 
 
-   #POST
-
-   #Serve para a inserção de dados 
+  #POST
+  #Inserção de dados 
 
         BASE: <Enter URL here>/api/giant/
         FORMATO: JSON
@@ -378,9 +375,8 @@
     }
 }
 
-   #DELETE
-
-   #Serve para a remoção de dados
+  #DELETE
+  #Remoção de dados
 
         BASE: <Enter URL here>/api/giant/
         FORMATO: JSON

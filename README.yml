@@ -1,12 +1,14 @@
-GIANT RESTful API
+RESTful API 
 
-PT - RESTful API para o protótipo da aplicação Web da Giant, verificar o ERD para os tipos de dados antes de usar o método POST
-EN - RESTful API for the Giant Web Based App prototype, please verify data column types on ERD before using POST method
 
-###############################
-TECHNICAL:
-###############################
-  DATABASE MODELING => VISUAL PARADIGM (.vpp)
-  DATABASE SCHEMA ENGINE => MYSQL (CONSTRAINTS/TABLES/PROCEDURES)
-  BACKEND LANGUAGE => PHP 8.1
-  API METHODS: GET, POST, DELETE
+A simple yet highly efficient PHP Restful API for general purposes
+
+PT - Protótipo da aplicação Web para uma segurada conhecida, Por favor verificar o ERD para os tipos de dados antes de usar o método POST
+EN - Web Based App prototype for a knonwn insurance company, Please verify data column types on ERD before using POST method
+
+
+Stack 
+DATABASE MODELING => VISUAL PARADIGM (.vpp)
+DATABASE SCHEMA ENGINE => MYSQL (CONSTRAINTS/TABLES/PROCEDURES)
+BACKEND LANGUAGE => PHP 8.1
+API METHODS: GET, POST, DELETE
