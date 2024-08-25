@@ -3,8 +3,8 @@ RESTful API
 
 A simple yet highly efficient PHP Restful API for general purposes
 
-PT - Protótipo da aplicação Web para uma segurada conhecida, Por favor verificar o ERD para os tipos de dados antes de usar o método POST
-EN - Web Based App prototype for a knonwn insurance company, Please verify data column types on ERD before using POST method
+PT - Protótipo da aplicação Web para uma seguradora conhecida, Por favor verificar o ERD para os tipos de dados antes de usar o método POST
+EN - Web Based App prototype for a known insurance company, Please verify data column types on ERD before using POST method
 
 
 Stack 
